@@ -2,9 +2,6 @@ language: python
 addons:
   sonarcloud:
     organization: "karthikramasamy-github"
-    branches:
-    - dev
-    - master
 python:
   - "3.5"
 
