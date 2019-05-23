@@ -34,7 +34,7 @@ Download the source code::
     $ git clone https://github.com/karthikramasamy/cmpe287
     $ cd cmpe287
 
-Install bookstore::
+Install the application::
 
     $ pip install -e .
 
