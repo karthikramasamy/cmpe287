@@ -103,6 +103,5 @@ if __name__ == "__main__":
 
     print(matrices)
 
-    similarity_score = opcode_processor.create_opcode_similarity_score(
-        matrices[0], matrices[len(matrices)-1])
+    similarity_score = opcode_processor.create_opcode_similarity_score(matrices[0], matrices[len(matrices)-1])
     print("\n similarity_score: ", similarity_score)

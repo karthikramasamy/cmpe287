@@ -20,10 +20,10 @@ class OpCodePlotter:
         plt.show()
 
     def make_label_dict(self, labels):
-        l = {}
+        label_dict = {}
         for i, label in enumerate(labels):
-            l[i] = label
-        return l
+            label_dict[i] = label
+        return label_dict
 
 
 if __name__ == "__main__":
@@ -35,5 +35,5 @@ if __name__ == "__main__":
     print("\n Node List: \n", opcode_list)
     print("\n Matrix: \n")
     plotter.draw_opcode_matrix(opcode_matrix, opcode_list)
-    print("\n Grapth: \n")
+    print("\n Graph: \n")
     plotter.draw_opcode_graph(opcode_matrix, opcode_list)
