@@ -1,16 +1,22 @@
 language: python
+addons:
+  sonarcloud:
+    organization: "karthikramasamy-github"
 python:
   - "3.5"
 
 # command to install dependencies
 install:
+  - pip install -U pip
+  - pip install -U coverage codecov flake8
   - pip install -e .
-  - pip install coverage codecov
 
 # command to run tests
 script:
   - coverage run -m pytest
   - coverage report
+  - flake8 --statistics --count
+  - sonar-scanner
 
 # Push the results back to codecov
 after_success:
