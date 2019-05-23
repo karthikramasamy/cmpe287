@@ -29,7 +29,7 @@ if __name__ == "__main__":
     import numpy as np
     plotter = OpCodePlotter()
     opcode_list = ['add', 'call', 'jmp', 'nop', 'sub']
-    opcode_matrix = np.random.rand(5,5)
+    opcode_matrix = np.around(np.random.rand(5,5), 2)
     
     print("\n Node List: \n", opcode_list)
     print("\n Matrix: \n")

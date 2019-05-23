@@ -7,13 +7,13 @@ class PlotterLibTests(unittest.TestCase):
     def test_draw_opcode_matrix(self):
         plotter = OpCodePlotter()
         opcode_list = ['add', 'call', 'jmp', 'nop', 'sub']
-        opcode_matrix = np.random.rand(5,5)
+        opcode_matrix = np.around(np.random.rand(5,5), 2)
         plotter.draw_opcode_matrix(opcode_matrix, opcode_list)
         
     def test_draw_opcode_graph(self):
         plotter = OpCodePlotter()
         opcode_list = ['add', 'call', 'jmp', 'nop', 'sub']
-        opcode_matrix = np.random.rand(5,5)
+        opcode_matrix = np.around(np.random.rand(5,5), 2)
         #plotter.draw_opcode_matrix(opcode_matrix, opcode_list)
         plotter.draw_opcode_graph(opcode_matrix, opcode_list)
     
