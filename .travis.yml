@@ -1,4 +1,10 @@
 language: python
+addons:
+  sonarcloud:
+    organization: "karthikramasamy-github"
+    branches:
+    - dev
+    - master
 python:
   - "3.5"
 
@@ -13,6 +19,7 @@ script:
   - coverage run -m pytest
   - coverage report
   - flake8 --statistics --count
+  - sonar-scanner
 
 # Push the results back to codecov
 after_success:
