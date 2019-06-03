@@ -24,7 +24,6 @@ class Analyser:
 
         sub_parser.set_defaults(func=self.__menu_handler)
         
-
     def __menu_handler(self, args):
 
         self.__logger.info("analyse command invoked with file : " + args.file + " and category : " + args.category)
@@ -39,7 +38,6 @@ class Analyser:
             
         self.analyse(filename, category)
         
-            
     def analyse(self, file, category):
             
         self.__logger.info("load the pre-trained model for " + category)
@@ -69,8 +67,3 @@ class Analyser:
 
         self.__logger.info("analysis completed without errors")
         
-        
-if __name__ == "__main__":
-    
-    analyser = Analyser()
-    analyser.analyse(self, 'asm/malware/1b5413aefc1325af9480c69498b69ab22c8dd292.asm.txt', 'WinRescue')

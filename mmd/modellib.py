@@ -11,7 +11,7 @@ class MalawareModelTrainer:
         model_file_name = os.path.join(self.model_folder, category.lower() + ".p")
 
         if os.path.isfile(model_file_name):
-            matrices = pickle.load(open(model_file_name, "rb" ))
+            matrices = pickle.load(open(model_file_name, "rb"))
         return matrices
 
     def train(self, category, folder):
@@ -43,6 +43,7 @@ class MalawareModelTrainer:
         print("saving the trained model to : ", model_file_name)
         pickle.dump(matrices, open(model_file_name, "wb"))
         print(matrices)
+
 
 if __name__ == "__main__":
     trainer = MalawareModelTrainer()

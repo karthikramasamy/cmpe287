@@ -25,7 +25,7 @@ def main():
 
     # build main menu parser
     parser = argparse.ArgumentParser(prog=PROGRAM_NAME, description=MENU_MAIN_DESC)
-    parser.add_argument('-V', '-v', '--version', action='version',version='%(prog)s (version {})'.format(PROGRAM_VERSION))
+    parser.add_argument('-V', '-v', '--version', action='version', version='%(prog)s (version {})'.format(PROGRAM_VERSION))
     parser.add_argument("-c", "-config", dest="config", default=None, required=False, help="Optional config path.")
 
     # create a new logger
