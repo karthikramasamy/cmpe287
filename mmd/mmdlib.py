@@ -66,4 +66,3 @@ class Analyser:
             self.__logger.info("Exception: " + str(ex))
 
         self.__logger.info("analysis completed without errors")
-        
