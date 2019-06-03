@@ -7,22 +7,22 @@ Builds
 ------
 
 +---------------------+------------------------------------------------------------------------------------------+
-| ``master``          | .. image:: https://travis-ci.com/karthikramasamy/cmpe287.svg?branch=master              |
-|                     |     :target: https://travis-ci.com/karthikramasamy/cmpe287                              |
+| ``master``          | .. image:: https://api.travis-ci.com/karthikramasamy/cmpe287.svg?branch=master           |
+|                     |     :target: https://travis-ci.com/karthikramasamy/cmpe287                               |
 +---------------------+------------------------------------------------------------------------------------------+
-| ``dev``             | .. image:: https://travis-ci.com/karthikramasamy/cmpe287.svg?branch=dev                 |
-|                     |     :target: https://travis-ci.com/karthikramasamy/cmpe287                              |
+| ``dev``             | .. image:: https://api.travis-ci.com/karthikramasamy/cmpe287.svg?branch=dev              |
+|                     |     :target: https://travis-ci.com/karthikramasamy/cmpe287                               |
 +---------------------+------------------------------------------------------------------------------------------+
 
 Code Coverage
 -------------
 
 +---------------------+------------------------------------------------------------------------------------------+
-| ``master``          | .. image:: https://codecov.io/gh/karthikramasamy/cmpe287/branch/master/graph/badge.svg  |
-|                     |     :target: https://codecov.io/gh/karthikramasamy/cmpe287                              |
+| ``master``          | .. image:: https://codecov.io/gh/karthikramasamy/cmpe287/branch/master/graph/badge.svg   |
+|                     |     :target: https://codecov.io/gh/karthikramasamy/cmpe287                               |
 +---------------------+------------------------------------------------------------------------------------------+
-| ``dev``             | .. image:: https://codecov.io/gh/karthikramasamy/cmpe287/branch/dev/graph/badge.svg     |
-|                     |     :target: https://codecov.io/gh/karthikramasamy/cmpe287                              |
+| ``dev``             | .. image:: https://codecov.io/gh/karthikramasamy/cmpe287/branch/dev/graph/badge.svg      |
+|                     |     :target: https://codecov.io/gh/karthikramasamy/cmpe287                               |
 +---------------------+------------------------------------------------------------------------------------------+
 
 Install
