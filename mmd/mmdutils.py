@@ -180,5 +180,6 @@ def str_to_bool(s):
     else:
         return False
 
+
 if __name__ == "__main__":
     sys.exit(main())
