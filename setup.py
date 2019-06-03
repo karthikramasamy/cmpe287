@@ -19,7 +19,6 @@ setup(
     install_requires=[
         'matplotlib',
         'networkx',
-        'networkx',
         'tabulate'
     ],
     extras_require={

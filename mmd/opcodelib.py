@@ -56,7 +56,7 @@ class OpCodeProcessor:
         similarity_score = (1/math.pow(np.size(model_matrix, 0), 2)
                             ) * cumulative_sum_square
 
-        return similarity_score
+        return round(similarity_score, 2)
 
     def is_valid_opcode_matrix(self, matrix):
         if np.size(matrix) <= 0:
